@@ -1,0 +1,29 @@
+[Adblock Plus 2.0]
+! Version: 
+! Title: NorthStar Filter List
+! Last modified: 
+! Expires: 2 days (update frequency)
+! Homepage: 
+!
+@@||*.cloudfront.net/js/_ads/adtech.js
+@@myprofile.servsafe.com/*$elemhide
+
+||amazon-adsystem.com^
+||doubleclick.net^$third-party
+@@||doubleclick.net/ddm/$image,domain=aetv.com|fyi.tv|history.com|mylifetime.com
+||fls.doubleclick.net^$subdocument,image
+/?sentry_key=
+/beacon.krxd.net/*
+||sourcepoint-mms.history.com^
+||summerhamster.com^
+||beacons.mediamelon.com^
+||scorecardresearch.com^$third-party
+||fwmrm.net^
+qosa.pearsonclinical.com##.aligner
+||os.shutterfly.com^
+||hotjar.com^$third-party
+$cookie=/^AMCVS?_.*AdobeOrg/
+||omtrdc.net^
+$cookie=s_cc
+@@||dayofai.org/api/census/RecordHit
+@@||fishinginschools.org^$document
